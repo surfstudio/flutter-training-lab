@@ -40,7 +40,7 @@ git checkout labs/lab2
 Чтобы вернуться к обзору всех лабораторных работ:
 
 ```bash
-git checkout main
+git checkout initial
 ```
 
 ## ⚙️ Установка и настройка
@@ -61,14 +61,23 @@ cd surf-mad-teacher-training
 git checkout labs/lab{N}
 ```
 
-2. Установите зависимости:
+2. Установите fvm:
+
+[Инструкция по установке fvm](https://fvm.app/documentation/getting-started/installation)
+
+3. Установите версию Flutter через fvm:
 ```bash
-flutter pub get
+fvm install
+```
+
+3. Установите зависимости:
+```bash
+fvm flutter pub get
 ```
 
 3. Запустите проект:
 ```bash
-flutter run
+fvm flutter run
 ```
 
 ### Ресурсы
@@ -77,12 +86,12 @@ flutter run
 
 Бекенд в проекте реализован на dart и запускается локально.
 
-Полная инструкция надзиться в (репозитории Github)[https://github.com/surfstudio/flutter-course-backend/tree/fix/update_backend] 
+Полная инструкция по установке и настройке в [репозитории Github](https://github.com/surfstudio/flutter-course-backend/tree/fix/update_backend)
 
 
 #### Дизайн
 
-Дизайн (макеты, ui-kit, шрифты) находятся в (Figma)[https://www.figma.com/design/JrGzLgTRY4s8bXyZ90qwZJ/Flutter-training-lab?node-id=0-1&t=3QRZarRlELv2rIRO-1]
+Дизайн (макеты, ui-kit, шрифты) находятся в [Figma](https://www.figma.com/design/JrGzLgTRY4s8bXyZ90qwZJ/Flutter-training-lab?node-id=0-1&t=3QRZarRlELv2rIRO-1)
 
 ## 📋 Описание учебного проекта
 
